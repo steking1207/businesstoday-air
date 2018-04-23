@@ -56,8 +56,51 @@ $('.slider-center').slick({
         }
     ]
 });
+
 $('.slider-single').slick();
 
+var item_length = $('#hero-slider > div').length - 1;
 
+$(document).ready(function() {
+    $('#hero-slider').on('init', function(e, slick) {
+        var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
+        doAnimations($firstAnimatingElements);
+    });
+    $('#hero-slider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+              var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+              doAnimations($animatingElements);
+    });
+    var slider = $('#hero-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        fade: true,
+        infinite: false,
+    });
+    $('#hero-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+        if( item_length === slider.slick('slickCurrentSlide') ){
+            slider.slickSetOption("autoplay",false,false)
+        };
+    });
+    function doAnimations(elements) {
+        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        elements.each(function() {
+            var $this = $(this);
+            var $animationDelay = $this.data('delay');
+            var $animationType = 'animated ' + $this.data('animation');
+            $this.css({
+                'animation-delay': $animationDelay,
+                '-webkit-animation-delay': $animationDelay
+            });
+            $this.addClass($animationType).one(animationEndEvents, function() {
+                $this.removeClass($animationType);
+            });
+        });
+    }
+});
 
-AOS.init();
+$('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('#hero-slider').slick('slickGoTo', slideno - 1);
+ });
