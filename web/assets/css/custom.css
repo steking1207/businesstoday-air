@@ -342,7 +342,8 @@ a:hover {
 .fixed-nav {
   position: fixed;
   top: 150px;
-  right: 1rem; }
+  right: 1rem;
+  z-index: 999; }
 @media (max-width: 1199.98px) {
   .fixed-nav {
     display: none; } }
