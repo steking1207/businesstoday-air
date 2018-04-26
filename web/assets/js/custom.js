@@ -72,10 +72,12 @@ $(document).ready(function() {
     });
     var slider = $('#hero-slider').slick({
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         arrows: false,
         fade: true,
         infinite: false,
+        pauseOnFocus: false,
+        pauseOnHover: false,
     });
     $('#hero-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
         if( item_length === slider.slick('slickCurrentSlide') ){
