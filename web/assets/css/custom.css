@@ -157,7 +157,7 @@ a:hover {
 .social {
   position: absolute;
   right: 0;
-  top: 10px; }
+  top: 25px; }
 
 #header .navbar-nav .nav-item {
   margin-left: 20px;
@@ -348,10 +348,6 @@ a:hover {
   .fixed-nav {
     display: none; } }
 
-.btn-skip {
-  position: absolute;
-  right: 1rem; }
-
 .btn-rounded {
   padding: 0;
   width: 60px;
@@ -468,9 +464,24 @@ a:hover {
 
 #animation {
   overflow: hidden; }
+#animation .social {
+  top: 10px; }
+@media (max-width: 991.98px) {
+  #animation .display-4 {
+    font-size: 2rem; }
+  #animation .h5 {
+    font-size: 1.2rem; }
+  #animation .bg-ani {
+    min-height: auto; } }
 
 .bg-ani {
   min-height: 380px; }
+
+.btn-skip {
+  position: absolute;
+  right: 1rem;
+  bottom: -1rem;
+  z-index: 999; }
 
 .slick-initialized .slick-slide {
   float: inherit;
