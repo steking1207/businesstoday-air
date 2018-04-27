@@ -40,124 +40,13 @@ a:hover {
   #section-kv .lead {
     font-size: 1.1rem; } }
 
-#sponsor img {
-  max-height: 40px; }
-
-.table {
-  background: rgba(255, 255, 255, 0.8); }
-
-.font-small {
-  font-size: 0.8rem; }
-
-[class^="text-row-"], [class*="text-row-"] {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical; }
-
-.text-row-1 {
-  -webkit-line-clamp: 1; }
-
-.text-row-2 {
-  -webkit-line-clamp: 2; }
-
-.text-row-3 {
-  -webkit-line-clamp: 3; }
-
-.text-youtube {
-  color: #f00; }
-
-#tab-navs {
-  padding-bottom: 10px;
-  background-image: url("../img/ui/bar.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 100% 6px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs {
-    background-image: url("../img/ui/bar@2x.png");
-    -moz-background-size: 100%, 6px;
-    -o-background-size: 100%, 6px;
-    -webkit-background-size: 100%, 6px;
-    background-size: 100%, 6px; } }
-#tab-navs .nav-link {
-  display: flex;
-  padding: 0;
-  width: 100%;
-  height: 73px;
-  background-position: 0 center;
-  background-repeat: no-repeat;
-  align-items: center; }
-#tab-navs .nav-link .h4 {
-  width: 100%; }
-#tab-navs .nav-link.active {
-  background-color: transparent; }
-#tab-navs #tab-nav1 {
-  background-image: url("../img/ui/tab1-man-normal.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav1 {
-    background-image: url("../img/ui/tab1-man-normal@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-#tab-navs #tab-nav1.active {
-  background-image: url("../img/ui/tab1-man-active.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav1.active {
-    background-image: url("../img/ui/tab1-man-active@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-#tab-navs #tab-nav2 {
-  background-image: url("../img/ui/tab2-man-normal.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav2 {
-    background-image: url("../img/ui/tab2-man-normal@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-#tab-navs #tab-nav2.active {
-  background-image: url("../img/ui/tab2-man-active.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav2.active {
-    background-image: url("../img/ui/tab2-man-active@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-#tab-navs #tab-nav3 {
-  background-image: url("../img/ui/tab3-man-normal.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav3 {
-    background-image: url("../img/ui/tab3-man-normal@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-#tab-navs #tab-nav3.active {
-  background-image: url("../img/ui/tab3-man-active.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
-  #tab-navs #tab-nav3.active {
-    background-image: url("../img/ui/tab3-man-active@2x.png");
-    -moz-background-size: 72px, 72px;
-    -o-background-size: 72px, 72px;
-    -webkit-background-size: 72px, 72px;
-    background-size: 72px, 72px; } }
-@media (max-width: 991.98px) {
-  #tab-navs .nav-link {
-    padding-top: 80px;
-    background-position: center 0;
-    height: auto; }
-  #tab-navs .nav-link .h4 {
-    font-size: 1rem; } }
-
 .social {
   position: absolute;
   right: 0;
-  top: 25px; }
+  top: 15px; }
+
+.navbar-brand img {
+  max-width: 200px; }
 
 #header .navbar-nav .nav-item {
   margin-left: 20px;
@@ -339,6 +228,120 @@ a:hover {
     height: 60px;
     background-position: 0 7px; } }
 
+#sponsor img {
+  max-height: 40px; }
+
+.table {
+  background: rgba(255, 255, 255, 0.8); }
+
+.font-small {
+  font-size: 0.8rem; }
+
+[class^="text-row-"], [class*="text-row-"] {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.text-row-1 {
+  -webkit-line-clamp: 1; }
+
+.text-row-2 {
+  -webkit-line-clamp: 2; }
+
+.text-row-3 {
+  -webkit-line-clamp: 3; }
+
+.text-youtube {
+  color: #f00; }
+
+#tab-navs {
+  padding-bottom: 10px;
+  background-image: url("../img/ui/bar.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 6px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs {
+    background-image: url("../img/ui/bar@2x.png");
+    -moz-background-size: 100%, 6px;
+    -o-background-size: 100%, 6px;
+    -webkit-background-size: 100%, 6px;
+    background-size: 100%, 6px; } }
+#tab-navs .nav-link {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  height: 73px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  align-items: center; }
+#tab-navs .nav-link .h4 {
+  width: 100%; }
+#tab-navs .nav-link.active {
+  background-color: transparent; }
+#tab-navs #tab-nav1 {
+  background-image: url("../img/ui/tab1-man-normal.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav1 {
+    background-image: url("../img/ui/tab1-man-normal@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+#tab-navs #tab-nav1.active {
+  background-image: url("../img/ui/tab1-man-active.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav1.active {
+    background-image: url("../img/ui/tab1-man-active@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+#tab-navs #tab-nav2 {
+  background-image: url("../img/ui/tab2-man-normal.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav2 {
+    background-image: url("../img/ui/tab2-man-normal@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+#tab-navs #tab-nav2.active {
+  background-image: url("../img/ui/tab2-man-active.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav2.active {
+    background-image: url("../img/ui/tab2-man-active@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+#tab-navs #tab-nav3 {
+  background-image: url("../img/ui/tab3-man-normal.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav3 {
+    background-image: url("../img/ui/tab3-man-normal@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+#tab-navs #tab-nav3.active {
+  background-image: url("../img/ui/tab3-man-active.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #tab-navs #tab-nav3.active {
+    background-image: url("../img/ui/tab3-man-active@2x.png");
+    -moz-background-size: 72px, 72px;
+    -o-background-size: 72px, 72px;
+    -webkit-background-size: 72px, 72px;
+    background-size: 72px, 72px; } }
+@media (max-width: 991.98px) {
+  #tab-navs .nav-link {
+    padding-top: 80px;
+    background-position: center 0;
+    height: auto; }
+  #tab-navs .nav-link .h4 {
+    font-size: 1rem; } }
+
 .fixed-nav {
   position: fixed;
   top: 150px;
@@ -475,18 +478,25 @@ a:hover {
     min-height: auto; } }
 
 .bg-ani {
-  min-height: 380px; }
+  max-width: 700px;
+  min-height: 300px; }
 
 .btn-skip {
-  position: absolute;
-  right: 1rem;
-  bottom: -1rem;
-  z-index: 999; }
+  margin-top: 1rem; }
 
 .slick-initialized .slick-slide {
   float: inherit;
   display: inline-block !important;
   vertical-align: middle; }
+
+.ani-frame {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border: 0; }
+@media (max-width: 991.98px) {
+  .ani-frame {
+    min-height: 250px; } }
 
 .bg-white {
   background-color: #fff !important; }
