@@ -22,6 +22,21 @@
         <link rel="shortcut icon" href="https://www.businesstoday.com.tw/lazyweb/web/img/favicon.ico">
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/custom.css">
+        <style>
+          #animation_container {
+            height: 500px;
+            max-width: 841px;
+            width: 75%;
+            position: relative;
+            margin: 0 auto;
+          }
+          @media (max-width: 768px) {
+            #animation_container {
+                width: 95%;
+            }
+          }
+        </style>
+
     </head>
 
     <body id="animation">
@@ -159,8 +174,12 @@
                         </div>
                         <a class="btn btn-skip btn-outline-success btn-rounded" href="javascript:void();" data-animation="fadeIn" data-slide="8">SKIP</a>
                     </div>
-                    <div class="col-12 hero-slide">
-                        <iframe src="ani-title.html" class="ani-frame" allowtransparency="true"></iframe>
+                    <div class="col-12 hero-slide" data-anim="true">
+                        <div id="animation_container">
+                            <canvas id="canvas" width="1084" height="644" style="position: absolute; display: block; background-color:transparent;"></canvas>
+                            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1084px; height:644px; position: absolute; left: 0px; top: 0px; display: block;">
+                            </div>
+                        </div>
                         <a class="btn btn-scroll btn-outline-success btn-rounded mt-2" href="index2.html">
                             <span class="icon-scroll-arw"></span>
                             <span class="icon-scroll-arw"></span>
@@ -179,7 +198,9 @@
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery.slick.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+        <script src="ani-title.js"></script>
+        <script src="assets/js/custom.js?v=0430"></script>
         <script src="assets/js/module.js"></script>
 
     </body>
